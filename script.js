@@ -1,18 +1,3 @@
-const testMessages = randomize([
-	{
-		text: "First message that is super super super super super super super super super super super super super super long",
-		author: "Person1",
-	},
-	{
-		text: "Second message that is super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super  super long",
-		author: "Person2",
-	},
-	{
-		text: "Third message",
-		author: "Person3",
-	},
-]);
-
 const messages = randomize([
 	{
 		type: 'pic',
@@ -60,7 +45,7 @@ function render(item) {
 }
 
 const fadeLength = 1000;
-const messageLength = 7000;
+const messageLength = 10000;
 
 let index = 0;
 const $content = $('#content');
