@@ -29,7 +29,7 @@ function renderPic(item) {
 
 function renderText(item) {
 	return `
-		<h1>${item.prompt}</h1>
+		<h1 class="prompt">${item.prompt}</h1>
 		<hr>
 		<h1>${item.text}</h1>
 		<h1>- ${item.author}</h1>

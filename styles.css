@@ -39,6 +39,10 @@ img {
 	max-width: 90vw;
 }
 
+.prompt {
+	font-style: italic;
+}
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
