@@ -21,6 +21,20 @@ const messages = randomize([
 		text: 'Wry (in the best sense)',
 		author: 'Bryan',
 	},
+	{
+		type: 'text',
+		prompt: 'Favorite memory of Diana...',
+		text: 'When we hung out for a full 48 hours before realizing how long it had actually been. The snoring was terrible but the laughs were great!',
+		author: 'Morgan',
+	},
+	{
+		type: 'text',
+		prompt: 'Describe Diana in one word...',
+		text: 'Spirited (adj): full of energy, enthusiasm, and determination.',
+		author: 'Morgan',
+	},
+
+
 ]);
 
 function renderPic(item) {
@@ -50,6 +64,7 @@ const messageLength = 10000;
 let index = 0;
 const $content = $('#content');
 const item = render(messages[index]);
+$content.hide();
 $content.html(item);
 $content.fadeIn(fadeLength);
 
