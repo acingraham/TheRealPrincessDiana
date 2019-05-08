@@ -49,7 +49,7 @@ const messages = randomize([
 	{
 		type: 'text',
 		prompt: 'What I love about Diana...',
-		text: "She’s down to earth, welcoming, inviting, not afraid to speak her mind, fun, can talk to her about anything, she’s a boss, she’s real and keeps it real.",
+		text: "She's down to earth, welcoming, inviting, not afraid to speak her mind, fun, can talk to her about anything, she's a boss, she's real and keeps it real.",
 		author: 'Katie Schepers',
 	},
 
