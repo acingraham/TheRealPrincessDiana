@@ -37,13 +37,13 @@ const messages = randomize([
 	{
 		type: 'text',
 		prompt: 'Favorite memory of Diana...',
-		text: 'This is weird and not sentimental. But my favorite memory of Diana is her always making tea in a big water glass in the flatiron kitchen all the time and that’s when we would vent and have our talks.',
+		text: "This is weird and not sentimental. But my favorite memory of Diana is her always making tea in a big water glass in the flatiron kitchen all the time and that's when we would vent and have our talks.",
 		author: 'Katie Schepers',
 	},
 	{
 		type: 'text',
 		prompt: 'Describe Diana in one word...',
-		text: 'the COOLEST 😎',
+		text: 'the COOLEST \uD83D\uDE0E',
 		author: 'Katie Schepers',
 	},
 	{
