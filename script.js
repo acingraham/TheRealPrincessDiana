@@ -1,39 +1,57 @@
 const messages = randomize([
 	{
 		type: 'pic',
-		name: 'bryan1.jpg'
+		name: 'bryan1.jpg',
+		author: 'Bryan Bowser',
 	},
 	{
 		type: 'text',
 		prompt: 'Favorite memory of Diana...',
 		text: 'Before I knew Diana, she picked up a package of mine accidentally and slacked me to get it from her desk. I went to retrieve it on the 5th floor, and thought she was very stylish in that Guns N Roses shirt. Quite the first impression.',
-		author: 'Bryan',
+		author: 'Bryan Bowser',
 	},
 	{
 		type: 'text',
 		prompt: 'What I love about Diana...',
 		text: 'How much time do you have? Quick wit comes to mind. Fierce loyalty. Pugnacious spirit if you dare wrong her. Diana is refreshing.',
-		author: 'Bryan',
+		author: 'Bryan Bowser',
 	},
 	{
 		type: 'text',
 		prompt: 'Describe Diana in one word...',
 		text: 'Wry (in the best sense)',
-		author: 'Bryan',
+		author: 'Bryan Bowser',
 	},
 	{
 		type: 'text',
 		prompt: 'Favorite memory of Diana...',
 		text: 'When we hung out for a full 48 hours before realizing how long it had actually been. The snoring was terrible but the laughs were great!',
-		author: 'Morgan',
+		author: 'Morgan Askins',
 	},
 	{
 		type: 'text',
 		prompt: 'Describe Diana in one word...',
 		text: 'Spirited (adj): full of energy, enthusiasm, and determination.',
-		author: 'Morgan',
+		author: 'Morgan Askins',
 	},
-
+	{
+		type: 'text',
+		prompt: 'Favorite memory of Diana...',
+		text: 'This is weird and not sentimental. But my favorite memory of Diana is her always making tea in a big water glass in the flatiron kitchen all the time and that’s when we would vent and have our talks.',
+		author: 'Katie Schepers',
+	},
+	{
+		type: 'text',
+		prompt: 'Describe Diana in one word...',
+		text: 'the COOLEST 😎',
+		author: 'Katie Schepers',
+	},
+	{
+		type: 'text',
+		prompt: 'What I love about Diana...',
+		text: "She’s down to earth, welcoming, inviting, not afraid to speak her mind, fun, can talk to her about anything, she’s a boss, she’s real and keeps it real.",
+		author: 'Katie Schepers',
+	},
 
 ]);
 
@@ -41,12 +59,17 @@ function renderPic(item) {
 	return `<img src="./images/${item.name}">`;
 }
 
+function anonymize(name) {
+	const names = name.split(' ');
+	return names[0] + ' ' + names[1][0];
+}
+
 function renderText(item) {
 	return `
 		<h1 class="prompt">${item.prompt}</h1>
 		<hr>
 		<h1>${item.text}</h1>
-		<h1>- ${item.author}</h1>
+		<h1>- ${anonymize(item.author)}</h1>
 	`;
 }
 
