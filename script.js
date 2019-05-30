@@ -72,7 +72,24 @@ const messages = randomize([
 		text: "She's down to earth, welcoming, inviting, not afraid to speak her mind, fun, can talk to her about anything, she's a boss, she's real and keeps it real.",
 		author: 'Katie Schepers',
 	},
-
+	{
+		type: 'text',
+		prompt: 'Describe Diana in one word...',
+		text: 'dangerous',
+		author: 'Alda Pontes',
+	},
+	{
+		type: 'text',
+		prompt: 'What I love about Diana...',
+		text: "her swag. her class. her sass. her laugh. her hair. her hugs. her smile. her gentleness. her gaze.",
+		author: 'Alda Pontes',
+	},
+	{
+		type: 'text',
+		prompt: 'Favorite memory of Diana...',
+		text: "melting into the rug with diana, tommy and andrew. connecting more strongly because we're better when we're together.",
+		author: 'Alda Pontes',
+	},
 ]);
 
 function renderPic(item) {
