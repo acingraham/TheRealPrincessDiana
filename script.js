@@ -5,6 +5,26 @@ const messages = randomize([
 		author: 'Bryan Bowser',
 	},
 	{
+		type: 'pic',
+		name: 'thomas1.jpg',
+		author: 'Thomas Marlette',
+	},
+	{
+		type: 'pic',
+		name: 'thomas2.jpg',
+		author: 'Thomas Marlette',
+	},
+	{
+		type: 'pic',
+		name: 'thomas3.jpg',
+		author: 'Thomas Marlette',
+	},
+	{
+		type: 'pic',
+		name: 'thomas4.jpg',
+		author: 'Thomas Marlette',
+	},
+	{
 		type: 'text',
 		prompt: 'Favorite memory of Diana...',
 		text: 'Before I knew Diana, she picked up a package of mine accidentally and slacked me to get it from her desk. I went to retrieve it on the 5th floor, and thought she was very stylish in that Guns N Roses shirt. Quite the first impression.',
