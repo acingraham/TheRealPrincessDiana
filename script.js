@@ -35,6 +35,31 @@ const messages = randomize([
 		author: 'Kim Shipman',
 	},
 	{
+		type: 'pic',
+		name: 'kyle1.jpg',
+		author: 'Kyle Konicek',
+	},
+	{
+		type: 'pic',
+		name: 'abbie1.jpg',
+		author: 'Abbie Orlando',
+	},
+	{
+		type: 'pic',
+		name: 'nick1.jpg',
+		author: 'Nick Moloney',
+	},
+	{
+		type: 'pic',
+		name: 'ben1.jpg',
+		author: 'Ben Kies',
+	},
+	{
+		type: 'pic',
+		name: 'rachel1.jpg',
+		author: 'Rachel Kalkstein',
+	},
+	{
 		type: 'text',
 		prompt: 'Favorite memory of Diana...',
 		text: 'Before I knew Diana, she picked up a package of mine accidentally and slacked me to get it from her desk. I went to retrieve it on the 5th floor, and thought she was very stylish in that Guns N Roses shirt. Quite the first impression.',
@@ -109,13 +134,13 @@ const messages = randomize([
 	{
 		type: 'text',
 		prompt: 'What I love about Diana...',
-		text: "She has a positive impact on any relationship she's in.  She's incredibly invested in her friends and makes a real effort to improve others' lives.  I have a short list of absolutely amazing people that I've encountered and Diana made that list faster than anyone.  She's unreal.",
+		text: "She's incredibly invested in her friends and makes a tremendous effort to improve others' lives.  Your life is better for having Diana in it.",
 		author: 'Andrew Ingraham',
 	},
 	{
 		type: 'text',
 		prompt: 'Favorite memory of Diana...',
-		text: "We were discussing ERGs (Employee Resource Groups) and Diana and her team had invested a lot of effort into creating bylaws.  During this informal meeting, we pushed back on a lot of the conclusions her team had reached.  I was absolutely blown away by Diana's receptiveness to feedback, even though it meant extra work for her and meant she'd need to push back against the group as a whole.  I was and still am so impressed by Diana's willingness to do what's right despite all the headaches it entails.  She's as good as they come.",
+		text: "That time at Flatrion we were discussing ERGs and Diana was so willing to hear others' opinions and make changes even after all the work she had put into it.  I was blown away by how receptive she was to others and it made an incredible impression on me.",
 		author: 'Andrew Ingraham',
 	},
 	{
@@ -190,8 +215,66 @@ const messages = randomize([
 		text: `Anytime I would be having a wack work day, Diana would brighten it simply with a smile or a "whats up".`,
 		author: 'Kyle Konicek',
 	},
-
-
+	{
+		type: 'text',
+		prompt: 'Favorite memory of Diana...',
+		text: `Our first conversation. We randomly bumped into each other on the E train on the way to work, and had a long conversation about how long it takes girls to get ready in the morning :)`,
+		author: 'Ben Kies',
+	},
+	{
+		type: 'text',
+		prompt: 'Describe Diana in one word...',
+		text: 'empathetic',
+		author: 'Abbie Orlando',
+	},
+	{
+		type: 'text',
+		prompt: 'What I love about Diana...',
+		text: "In one hangout with Diana we somehow go from laughing tears of joy, to talking deeply about politics, to confiding in each other about our hopes and dreams.  She is an incredibly loyal, adventurous, and thoughtful friend.  I'm so blessed to have her in my life &#10084;&#65039;.",
+		author: 'Abbie Orlando',
+	},
+	{
+		type: 'text',
+		prompt: 'Favorite memory of Diana...',
+		text: `Our heart to heart after escaping death in Maine`,
+		author: 'Abbie Orlando',
+	},
+	{
+		type: 'text',
+		prompt: 'Describe Diana in one word...',
+		text: 'Authentic',
+		author: 'Nick Moloney',
+	},
+	{
+		type: 'text',
+		prompt: 'What I love about Diana...',
+		text: "Diana is open to almost anything and has a great attitude doing it! Learning to ski, for example, is hard, but she constantly had a positive outlook on it",
+		author: 'Nick Moloney',
+	},
+	{
+		type: 'text',
+		prompt: 'Favorite memory of Diana...',
+		text: `Watching her climb the rungs of the ladders in Acadia even though she wasn't happy about it since it was so cold and windy, but we made it!`,
+		author: 'Nick Moloney',
+	},
+	{
+		type: 'text',
+		prompt: 'Describe Diana in one word...',
+		text: 'Loving',
+		author: 'Rachel Kalkstein',
+	},
+	{
+		type: 'text',
+		prompt: 'What I love about Diana...',
+		text: "She's always there for you when you need her. Hands down the most hilarious person I know. She's honest, generous and always fun to be around.Everything you could ever ask for in a friend.",
+		author: 'Rachel Kalkstein',
+	},
+	{
+		type: 'text',
+		prompt: 'Favorite memory of Diana...',
+		text: `So many memories. Way too hard to choose just one. In general I would have to say nothing makes me smile more than when I think about the times we have laughed together and Diana cant stop laughing for 10 minutes straight. Thank God for that contagious laugh that brings so much joy to my heart. I LOVE YOU.`,
+		author: 'Rachel Kalkstein',
+	},
 ]);
 
 function renderPic(item) {
